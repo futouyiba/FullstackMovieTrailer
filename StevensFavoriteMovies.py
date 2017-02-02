@@ -13,4 +13,6 @@ for row in movieReader:
     movies.append(movie)
 
 movies = movies[1:]
-fresh_tomatoes.open_movies_page(movies) # create website that contain movies
+
+# This line is generating the webpage using fresh tomatoes.
+fresh_tomatoes.open_movies_page(movies) 
